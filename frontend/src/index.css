@@ -1,0 +1,35 @@
+@import "tailwindcss";
+
+/* Loading Animation */
+@keyframes loading {
+  0% {
+      width: 0%;
+  }
+  100% {
+      width: 100%;
+  }
+}
+
+.animate-loading {
+  animation: loading 1s ease-in-out;
+}
+
+/* Hover Underline Animation */
+.nav-link::after {
+  content: "";
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  width: 0%;
+  height: 2px;
+  background-color: #14532d; /* Green-900 */
+  transition: width 0.3s ease-in-out;
+}
+
+.nav-link:hover::after {
+  width: 100%;
+}
+
+body{
+  background-color: rgb(255, 248, 212);
+}
