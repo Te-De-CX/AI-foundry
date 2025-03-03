@@ -27,28 +27,14 @@ const NextLevel = () => {
             text: "monday we go to school a ma lon fa loud, tuesday we stay at homw i no go agian, wednesday we call shade when she come we hum, thurday bla sl do.",
             icon: <FaGlobe/>
         },
-        {
-            id: 5,
-            name: "networking",
-            text: "monday we go to school a ma lon fa loud, tuesday we stay at homw i no go agian, wednesday we call shade when she come we hum, thurday bla sl do.",
-            icon: <FaGlobe/>
-        },
-        {
-            id: 6,
-            name: "networking",
-            text: "monday we go to school a ma lon fa loud, tuesday we stay at homw i no go agian, wednesday we call shade when she come we hum, thurday bla sl do.",
-            icon: <FaGlobe/>
-        },
     ]
 
-    return (
-        <>
-            <section>
-                <div>
-                    <h2>why become a member?</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia expedita atque suscipit fugit, et at ?</p>
-                </div>
-                <div>
+return (
+    <>
+        <section>
+            <h2>everything you need to take your startup to the next level</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque ercitationem laborum minus magni? Accusamus, modi!</p>
+            <div>
                     {
                         card.map((content) => (
                             <div key={content.id}>
@@ -60,9 +46,9 @@ const NextLevel = () => {
                         ))
                     }
                 </div>
-            </section>
-        </>
-    )
+        </section>
+    </>
+)
 }
 
 export default NextLevel;

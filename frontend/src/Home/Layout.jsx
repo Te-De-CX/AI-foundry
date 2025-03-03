@@ -2,6 +2,7 @@ import Navbar from "./routes/Navbar";
 import Hero from "./Hero";
 import Marque from "./Marque";
 import NextLevel from "./NextLevel";
+import Faq from "./Faq";
 
 const Layout = () => {
 
@@ -11,6 +12,7 @@ const Layout = () => {
             <Hero />
             <Marque />
             <NextLevel />
+            <Faq />
         </>
     )
 }
